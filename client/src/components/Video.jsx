@@ -1,5 +1,7 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
+// eslint-disable-next-line react/prop-types
 function Video({ title, description, videoUrl }) {
   return (
     <div className="p-4 bg-gray-200 rounded">

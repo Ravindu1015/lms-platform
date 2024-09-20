@@ -1,5 +1,8 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 
+
+// eslint-disable-next-line react/prop-types
 function AuthForm({ onSubmit, type }) {
   const [form, setForm] = useState({ username: '', password: '', year: '' });
 

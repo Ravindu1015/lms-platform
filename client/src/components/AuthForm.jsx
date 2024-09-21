@@ -31,7 +31,7 @@ function AuthForm({ onSubmit, type }) {
         <>
           <label>Year:</label>
           <input
-            type=
+            type="number"
             className="p-2 border"
             value={form.year}
             onChange={(e) => setForm({ ...form, year: e.target.value })}

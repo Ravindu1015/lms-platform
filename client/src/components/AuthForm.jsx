@@ -22,7 +22,7 @@ function AuthForm({ onSubmit, type }) {
       />
       <label>Password:</label>
       <input
-        type="password"
+        type=
         className="p-2 border"
         value={form.password}
         onChange={(e) => setForm({ ...form, password: e.target.value })}

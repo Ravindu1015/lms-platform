@@ -10,7 +10,7 @@ function Profile() {
     getProfile().then((data) => setUser(data));
   }, []);
 
-  if (!user) return <p>Loading...</p>;
+  if (!user) return <p>Loading... data will show quickly</p>;
 
   return <User {...user} />;
 }

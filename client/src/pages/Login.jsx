@@ -12,7 +12,7 @@ function Login() {
       await login(formData);
       navigate('/profile');
     } catch (error) {
-      console.error('Login failed', error);
+      console.error('Login failed *', error);
     }
   };
 
